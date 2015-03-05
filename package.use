@@ -1,0 +1,29 @@
+>=media-video/vlc-2.1.5-r1 skins xml qt4
+>=media-libs/allegro-4.4.2-r1:0 vorbis
+
+=x11-libs/cairo-1.12.18-r1 xcb
+=app-text/ghostscript-gpl-9.10-r2 cups
+=app-crypt/gcr-3.12.2 gtk
+>=dev-java/sun-jdk-1.6.0.45 Oracle-BCLA-JavaSE
+
+=dev-qt/qtgui-4.8.5-r3 qt3support
+=x11-base/xorg-server-1.16.4 udev
+
+=www-plugins/adobe-flash sse2
+=x11-base/xorg-server-1.15.2-r1 udev
+=x11-libs/cairo-1.12.16 xcb
+>=sys-libs/zlib-1.2.8-r1 minizip
+
+=dev-qt/qtsql-4.8.5 qt3support
+# required by kde-base/okular-4.14.3[pdf]
+# required by okular (argument)
+=app-text/poppler-0.26.5 qt4
+# required by kde-base/okular-4.14.3
+# required by okular (argument)
+=dev-qt/qtcore-4.8.5-r2 qt3support
+
+=dev-libs/keybinder-0.3.0-r200 python
+# required by x11-terms/terminator-0.96-r1
+# required by terminator (argument)
+>=x11-libs/vte-0.28.2-r206:0 python
+

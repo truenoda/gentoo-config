@@ -1,0 +1,7 @@
+=games-action/trine-bin-1.08 ~x86
+
+=www-client/firefox-bin-35.0 ~x86
+=dev-ruby/git-1.2.9.1 **
+=virtual/jdk-1.7.0 ~x86
+=dev-java/icedtea-bin-7.2.5.3 ~x86
+=dev-util/android-studio-1.0.2.135.1653844 ~x86
