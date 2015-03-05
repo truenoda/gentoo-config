@@ -1,0 +1,30 @@
+[global_config]
+  enabled_plugins = CustomCommandsMenu, TestPlugin, ActivityWatch, TerminalShot, MavenPluginURLHandler
+  window_state = hidden
+[keybindings]
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000cd:#cd00cd:#00cdcd:#faebd7:#404040:#ff0000:#00ff00:#ffff00:#0000ff:#ff00ff:#00ffff:#ffffff"
+    font = monaco 10
+    background_image = /home/tracy/wallpaper/superbg2.jpg
+    scrollback_lines = 50000
+    background_type = transparent
+    use_system_font = False
+    cursor_color = "#eee8d5"
+    scroll_background = False
+    scroll_on_output = False
+    show_titlebar = False
+    copy_on_selection = True
+    foreground_color = "#ffffff"
+  [[New Profile]]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      profile = default
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
